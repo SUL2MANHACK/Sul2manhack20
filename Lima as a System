@@ -1,0 +1,10 @@
+# Create and activate virtual environment
+ENV=agentic_env
+with-proxy conda create -n $ENV python=3.10
+cd <path-to-llama-agentic-system-repo>
+conda activate $ENV
+
+# Install the package
+pip install -r requirements.txt
+
+
